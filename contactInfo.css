@@ -1,0 +1,26 @@
+#informationBase {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 50px);
+    font-size: 25px;
+    font-family: verdana;
+}
+#info {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#email {
+    background-color: cornflowerblue;
+    border: 3px solid cornflowerblue;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 15px;
+}
+
+#email:active {
+    color: rgb(173, 174, 230);
+}

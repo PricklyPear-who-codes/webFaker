@@ -13,6 +13,14 @@ body {
   user-select: none;
 }
 
+.links {
+  color: white;
+}
+a {-webkit-user-drag: none;}
+#top-nav a {
+  color: transparent;
+}
+
 .navBtns {
   position: absolute;
   top: 5px;
@@ -26,18 +34,24 @@ body {
 }
 
 #gotoHome {
-  position: absolute;
-  left: 10px;
+  position:relative;
+  margin-left: 10px;
+  margin-right: 5px;
 }
 
 #gotoIncognito {
-  position: absolute;
-  left: 110px;
+  position:relative;
+  margin-right: 5px;
 }
 
 #gotoDoge {
-  position: absolute;
-  left: 245px;
+  position:relative;
+  margin-right: 5px;
+}
+
+#gotoContact {
+  position:relative;
+  margin-right: 5px;
 }
 
 #about {
@@ -60,10 +74,15 @@ highlight {
 selected {
   color: rgb(173, 174, 230);
 }
+
 ::selection {
   background-color: cornflowerblue;
   color: white;
 }
 highlight::selection {
   color: red;
+}
+
+#content {
+  margin-top: calc(50% - 600px);
 }
