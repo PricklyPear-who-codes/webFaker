@@ -1,0 +1,69 @@
+body {
+  background-color: #1a1a1a;
+  color: white;
+}
+#top-nav {
+  position: absolute;
+  top:0;
+  left:0;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height:50px;
+  user-select: none;
+}
+
+.navBtns {
+  position: absolute;
+  top: 5px;
+  background-color: #6495ED;
+  color: white;
+  font-family: "verdana";
+  font-size: 20px;
+  padding: 5px 15px;
+  border: 3px solid #6495ED;
+  border-radius: 5px;
+}
+
+#gotoHome {
+  position: absolute;
+  left: 10px;
+}
+
+#gotoIncognito {
+  position: absolute;
+  left: 110px;
+}
+
+#gotoDoge {
+  position: absolute;
+  left: 245px;
+}
+
+#about {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  height: calc(100% - 50px);
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-family: "verdana";
+}
+
+highlight {
+  color: red;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+selected {
+  color: rgb(173, 174, 230);
+}
+::selection {
+  background-color: cornflowerblue;
+  color: white;
+}
+highlight::selection {
+  color: red;
+}
