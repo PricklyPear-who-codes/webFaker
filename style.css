@@ -7,3 +7,9 @@
   width: 100%;
   height:50px;
 }
+
+#top-nav #gotoIncognito {
+  background-color: #6495ED;
+  color: white;
+  font-family: "Play", sans-serif;
+}
