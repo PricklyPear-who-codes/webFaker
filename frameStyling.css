@@ -1,6 +1,6 @@
 #frame {
   position: absolute;
-  top: 50px;
+  top: 51px;
   left: 0;
-  height: calc(100% - 50px);
+  height: calc(100% - 51px);
 }
