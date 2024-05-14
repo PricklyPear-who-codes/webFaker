@@ -25,6 +25,10 @@ button {
   cursor: pointer;
 }
 
+button:active {
+  opacity: 90%;
+}
+
 button:disabled {
   opacity: 0.5;
   cursor: default;
@@ -40,10 +44,6 @@ button:disabled {
   padding: 5px 15px;
   border: 3px solid #6495ED;
   border-radius: 5px;
-}
-
-.navBtns:active {
-  opacity: 90%;
 }
 
 #gotoHome {
