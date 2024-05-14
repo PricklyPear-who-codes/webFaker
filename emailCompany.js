@@ -6,7 +6,7 @@ function email() {
         if (body == null || body == "") {
             alert("No Body");
         } else {
-            window.open(`mailto:vividdisco12@gmail.com?subject=${subject}&body=${body}`);
+            window.open(`mailto:someone@example.com?subject=${subject}&body=${body}`);
         }
     } else {
         alert("Cancelled");
