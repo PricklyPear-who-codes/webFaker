@@ -4,6 +4,7 @@
 body {
   background-color: #1a1a1a;
   color: white;
+  overflow: hidden;
 }
 #top-nav {
   position: absolute;
@@ -81,6 +82,8 @@ button:disabled {
   text-align: center;
   font-size: 45px;
   font-family: "verdana";
+  overflow: scroll;
+  scroll-behavior: smooth;
 }
 
 highlight {
@@ -142,4 +145,9 @@ br {
 svg {
   user-select: none;
   -webkit-user-drag: none;
+}
+
+#scrollDown {
+  background-color: transparent;
+  border: none;
 }
