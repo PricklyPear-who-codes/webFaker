@@ -18,9 +18,11 @@ body {
   border-bottom: 1px solid white;
 }
 
-/*@media screen and () {
-  
-}*/
+@media screen and (max-width: 480px) {
+  #content {
+    margin-top: calc(50% - 800px);
+  }
+}
 
 .links {
   color: white;
