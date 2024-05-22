@@ -1,9 +1,0 @@
-:root {
-  --y-pos: 51px;
-}
-#frame {
-  position: absolute;
-  top: var(--y-pos);
-  left: 0;
-  height: calc(100% - var(--y-pos));
-}
