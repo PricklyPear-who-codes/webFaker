@@ -52,6 +52,11 @@ button:disabled {
   margin-right: 5px;
 }
 
+.navBtns:hover {
+  background-color: #000000;
+  scale: 1.5;
+}
+
 #gotoHome {
   position:relative;
   margin-left: 10px;
