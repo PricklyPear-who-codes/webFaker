@@ -50,16 +50,24 @@ button:disabled {
   border: 3px solid #6495ED;
   border-radius: 5px;
   margin-right: 5px;
+  transition: 0.25s;
 }
 
 .navBtns:hover {
   background-color: #000000;
-  scale: 1.5;
+  scale: 1.1;
+  color: white;
+  z-index: 9999999999999999;
+  border: 3px solid #00a2ed;
+}
+
+.navBtns:hover selected {
+  color: white;
 }
 
 #gotoHome {
   position:relative;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 #gotoIncognito {
