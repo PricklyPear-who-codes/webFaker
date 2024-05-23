@@ -1,0 +1,171 @@
+:root {
+  --y-pos: 60px;
+}
+body {
+  background-color: #1a1a1a;
+  color: white;
+  overflow: hidden;
+}
+#top-nav {
+  position: absolute;
+  top:0;
+  left:0;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 50px;
+  user-select: none;
+  border-bottom: 1px solid white;
+}
+
+.links {
+  color: white;
+}
+a {-webkit-user-drag: none;}
+#top-nav a {
+  color: transparent;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:active {
+  opacity: 90%;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.navBtns {
+  position: absolute;
+  top: 5px;
+  background-color: #6495ED;
+  color: white;
+  font-family: "verdana";
+  font-size: 20px;
+  padding: 5px 15px;
+  border: 3px solid #6495ED;
+  border-radius: 5px;
+  margin-right: 5px;
+  transition-duration: 0.15s;
+  transition-timing-function: ease-in-out;
+}
+
+.navBtns:hover {
+  background-color: #000000;
+  scale: 1.1;
+  color: white;
+  z-index: 9999999999999999;
+  border: 3px solid #00a2ed;
+}
+
+.navBtns:hover selected {
+  color: white;
+}
+
+#gotoHome {
+  position:relative;
+  margin-left: 15px;
+}
+
+#gotoIncognito {
+  position:relative;
+}
+
+#gotoDoge {
+  position:relative;
+}
+
+#gotoContact {
+  position:relative;
+}
+
+#gotoUpdates {
+  position: relative;
+}
+
+#about {
+  position: absolute;
+  top: var(--y-pos);
+  left: 0;
+  height: calc(100% - var(--y-pos));
+  width: 100%;
+  text-align: center;
+  font-size: 45px;
+  font-family: "verdana";
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
+
+highlight {
+  color: red;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+selected {
+  color: rgb(51, 51, 51);
+}
+
+marked {
+  color: lightseagreen;
+  text-transform: capitalize;
+}
+
+::selection {
+  background-color: cornflowerblue;
+  color: white;
+}
+highlight::selection {
+  color: red;
+}
+
+#content {
+  margin-top: calc(50% - 600px);
+}
+
+#contentSpotify {
+  background-color: #282828;
+}
+
+#footer {
+  position:absolute;
+  bottom: -500px;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  background-color: black;
+  font-size: 25px;
+}
+
+#innerContainer1 {
+  position: absolute;
+  left: 15px;
+  font-size: 15px;
+  top: 50px;
+}
+
+#innerContainer1 a {
+  color: white;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+br {
+  user-select: none;
+}
+
+svg {
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+#scrollDown {
+  background-color: transparent;
+  border: none;
+}
