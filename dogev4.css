@@ -1,0 +1,42 @@
+body {
+    overflow: hidden;
+}
+#unscreen {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#exitFullScreenBtn {
+    background-color: #1b1b1b;
+    color: white;
+    opacity: 0.95;
+    font-size: 15px;
+    border: none;
+    border-radius: 100px;
+    padding: 5px 15px;
+    display: none;
+}
+
+#exitFullScreenBtn:active {
+    opacity: 1;
+    color: #1b1b1b;
+    background-color: white;
+}
+
+notification {
+    position: absolute;
+    bottom: -70px;
+    left: 15px;
+    width: calc(100% - 70px);
+    background-color: rgb(0, 152, 8);
+    color: rgb(0, 76, 0);
+    border: none;
+    border-radius: 100px;
+    font-family: verdana;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    transition-duration: 0.5s;
+    user-select: none;
+}
