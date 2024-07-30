@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="frameStyling.css">
+<link rel="stylesheet" href="dogev4.css">
 
 <title>webFaker | Spotify</title>
 <link rel="icon" href="https://static-00.iconduck.com/assets.00/incognito-icon-512x487-o2l6p9u6.png">
@@ -23,8 +24,17 @@
         <button id="gotoContact" class="navBtns">Contact Us</button>
         </a>
   </div>
-
+  <div id="unscreen">
+    <button id="exitFullScreenBtn" onclick="exitFullScreen()">Back</button>
+  </div>
   <div id="contentSpotify">
     <iframe id="frame" src="https://open.spotify.com/embed/playlist/6jkRtlOJwR5AeL8D6vhAKt?utm_source=generator&theme=0" width="100%" height="50%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
   </div>
+  <notification id="noti">
+    Double tap the navigation menu<br>
+    for full screen
+  </notification>
+
+  <script src="hideNav.js"></script>
+  <script src="showNotification.js"></script>
 </body>
